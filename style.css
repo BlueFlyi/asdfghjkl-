@@ -4,3 +4,46 @@ h1 {
     text-align: center;
     font-family: 'Arial', sans-serif;
 }
+p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background-color: rgb(255, 241, 114);
+}
+@keyframes color-change {
+    0% {
+      color: rgb(229, 255, 0);
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+h1 {
+    animation: color-change 3s infinite;
+}
+li {
+    font-size: 20px;
+    color: rgb(0, 255, 13);
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
+img {
+    width: 300px; /* Cambia el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Hace que la imagen sea un elemento de bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+h2 {
+    font-size: 40px;
+    color: rgb(0, 51, 255);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
